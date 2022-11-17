@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{ab4c9c7b-6657-469f-84e9-c8abbb5f6ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{fd52e0df-6765-4d26-879a-466a47906dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stb">
+      <UniqueIdentifier>{9a0f10a1-d952-44bc-a7e9-4753febe4349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{4df5ae61-1f97-48a0-a3fc-eab0ca11a83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IconFont">
+      <UniqueIdentifier>{3afe92a3-a51e-4ad0-8349-d26759e91374}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Stb\stb_vorbis.c">
+      <Filter>Stb</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-knobs.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui-knobs.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_c_lexer.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_connected_components.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_divide.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_ds.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_dxt.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_easy_font.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_herringbone_wang_tile.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_hexwave.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_image.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_image_resize.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_image_write.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_include.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_leakcheck.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_perlin.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_rect_pack.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_sprintf.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_textedit.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_tilemap_editor.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_truetype.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Stb\stb_voxel_render.h">
+      <Filter>Stb</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsFontaudio.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsFontAwesome4.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsFontAwesome5.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsFontAwesome5Brands.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsFontAwesome5Pro.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsFontAwesome5ProBrands.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsFontAwesome6.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsFontAwesome6Brands.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsForkAwesome.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsKenney.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFont\IconsMaterialDesign.h">
+      <Filter>IconFont</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-knobs.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui-knobs.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fontawesome-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Stb\.travis.yml">
+      <Filter>Stb</Filter>
+    </None>
+    <None Include="Stb\LICENSE">
+      <Filter>Stb</Filter>
+    </None>
+    <None Include="Stb\README.md">
+      <Filter>Stb</Filter>
+    </None>
+    <None Include="IconFont\IconsFontaudio.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontaudio.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontaudio.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome4.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome4.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome4.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5Brands.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5Brands.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5Brands.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5Pro.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5Pro.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5Pro.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5ProBrands.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5ProBrands.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome5ProBrands.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome6.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome6.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome6.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome6Brands.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome6Brands.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsFontAwesome6Brands.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsForkAwesome.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsForkAwesome.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsForkAwesome.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsKenney.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsKenney.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsKenney.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsMaterialDesign.cs">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsMaterialDesign.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\IconsMaterialDesign.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\README.md">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\.gitignore">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\font.go">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\GenerateIconFontCppHeaders.py">
+      <Filter>IconFont</Filter>
+    </None>
+    <None Include="IconFont\go.mod">
+      <Filter>IconFont</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image\viis_logo.jpg">
+      <Filter>Image</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="IconFont\licence.txt">
+      <Filter>IconFont</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
