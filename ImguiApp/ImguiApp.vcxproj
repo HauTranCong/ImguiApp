@@ -105,7 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\NewgateIoT\ImguiApp\ImguiApp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\GiaiThuatC_Cpp\Imgui\ImguiApp\ImguiApp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,17 +129,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="imgui-knobs.cpp" />
     <ClCompile Include="Imgui\imgui-knobs.cpp" />
-    <ClCompile Include="imgui\imgui.cpp" />
-    <ClCompile Include="imgui\imgui_demo.cpp" />
-    <ClCompile Include="imgui\imgui_draw.cpp" />
-    <ClCompile Include="imgui\imgui_impl_dx11.cpp" />
-    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
-    <ClCompile Include="imgui\imgui_tables.cpp" />
-    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Imgui\imgui.cpp" />
+    <ClCompile Include="Imgui\imgui_demo.cpp" />
+    <ClCompile Include="Imgui\imgui_draw.cpp" />
+    <ClCompile Include="Imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Imgui\imgui_tables.cpp" />
+    <ClCompile Include="Imgui\imgui_widgets.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Stb\stb_vorbis.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fontawesome-webfont.ttf" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IconFont\IconsFontaudio.h" />
@@ -153,16 +155,15 @@
     <ClInclude Include="IconFont\IconsForkAwesome.h" />
     <ClInclude Include="IconFont\IconsKenney.h" />
     <ClInclude Include="IconFont\IconsMaterialDesign.h" />
-    <ClInclude Include="imgui-knobs.h" />
-    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="Imgui\imconfig.h" />
     <ClInclude Include="Imgui\imgui-knobs.h" />
-    <ClInclude Include="imgui\imgui.h" />
-    <ClInclude Include="imgui\imgui_impl_dx11.h" />
-    <ClInclude Include="imgui\imgui_impl_win32.h" />
-    <ClInclude Include="imgui\imgui_internal.h" />
-    <ClInclude Include="imgui\imstb_rectpack.h" />
-    <ClInclude Include="imgui\imstb_textedit.h" />
-    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="Imgui\imgui.h" />
+    <ClInclude Include="Imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="Imgui\imgui_impl_win32.h" />
+    <ClInclude Include="Imgui\imgui_internal.h" />
+    <ClInclude Include="Imgui\imstb_rectpack.h" />
+    <ClInclude Include="Imgui\imstb_textedit.h" />
+    <ClInclude Include="Imgui\imstb_truetype.h" />
     <ClInclude Include="Stb\stb_connected_components.h" />
     <ClInclude Include="Stb\stb_c_lexer.h" />
     <ClInclude Include="Stb\stb_divide.h" />
@@ -183,9 +184,6 @@
     <ClInclude Include="Stb\stb_tilemap_editor.h" />
     <ClInclude Include="Stb\stb_truetype.h" />
     <ClInclude Include="Stb\stb_voxel_render.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="fontawesome-webfont.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="IconFont\.gitignore" />
@@ -231,10 +229,10 @@
     <None Include="Stb\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Image\viis_logo.jpg" />
+    <Text Include="IconFont\licence.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="IconFont\licence.txt" />
+    <Image Include="Image\viis_logo.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
